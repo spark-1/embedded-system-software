@@ -1,8 +1,8 @@
 # Embedded System Software
 
-__First__ <br>
+##__First__ <br>
 package install for compile(optional) <br>
-'''$sudo apt-get install -y build-essential linux-headers-$(uname -r)''' <br>
+~~~$sudo apt-get install -y build-essential linux-headers-$(uname -r)~~~ <br>
 check present kernel version <br>
 '''$uname -r''' <br>
 __Module Command__ <br>
