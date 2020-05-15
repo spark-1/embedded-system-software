@@ -1,0 +1,1 @@
+cmd_/home/spark/임소/character_device_drivers/exercise3/simple_param.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/spark/임소/character_device_drivers/exercise3/simple_param.ko /home/spark/임소/character_device_drivers/exercise3/simple_param.o /home/spark/임소/character_device_drivers/exercise3/simple_param.mod.o ;  true
