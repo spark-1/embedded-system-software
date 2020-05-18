@@ -1,0 +1,1 @@
+cmd_/home/spark/임소/basic_kernel_functions/exercise3/simple_proc.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/spark/임소/basic_kernel_functions/exercise3/simple_proc.ko /home/spark/임소/basic_kernel_functions/exercise3/simple_proc.o /home/spark/임소/basic_kernel_functions/exercise3/simple_proc.mod.o ;  true
