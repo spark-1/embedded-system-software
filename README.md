@@ -3,6 +3,7 @@
 ## First <br>
 package install for compile(optional) <br>
 ``` $sudo apt-get install -y build-essential linux-headers-$(uname -r) ``` <br>
+
 check present kernel version <br>
 ``` $uname -r ``` <br>
 
@@ -23,6 +24,8 @@ module release <br>
 ``` $sudo rmmod (file_name) ``` <br>
 remove device file <br>
 ``` $sudo rm /dev/(file_name) ``` <br>
+remove proc file <br>
+``` $sudo rm /proc/(file_name) ``` <br>
 display kernel buffer message <br>
 ``` $dmesg ``` <br>
 ``` $dmesg | tail -(number)``` <br>
