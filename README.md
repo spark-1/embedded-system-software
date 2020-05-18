@@ -1,6 +1,6 @@
 # Embedded System Software
 
-## First <br>
+## Start Module Programming <br>
 package install for compile(optional) <br>
 ``` $sudo apt-get install -y build-essential linux-headers-$(uname -r) ``` <br>
 
@@ -61,7 +61,7 @@ install cross compile tool <br>
 ``` $sudo apt install gcc-arm-linux-gnueabi ``` <br>
 ``` $sudo apt install ncurses-dev ``` <br>
 
-decompression kernel source(firstable need kernel source!) <br>
+decompression kernel source (firstable need guest kernel source!) <br>
 ``` $linux-rpi-4.19.97-update.tar.gz ``` <br>
 ``` $tar xvf linux-rpi-4.19.97-update.tar.gz -C ~ ``` <br>
 
