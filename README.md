@@ -51,7 +51,7 @@ install kernel shark <br>
 ``` $sudo apt-get install kernelshark ``` <br>
 
 record process excute pattern using kernel shark <br>
-``` $trace-cmd record -e sched ./(file_name) ``` <br>
+``` $trace-cmd record -e sched ./<file_name> ``` <br>
 
 show kernel shark gui<br>
 ``` $kernelshark ``` <br>
