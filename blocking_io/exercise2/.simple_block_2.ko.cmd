@@ -1,0 +1,1 @@
+cmd_/home/spark/임소/blocking_io/exercise2/simple_block_2.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/spark/임소/blocking_io/exercise2/simple_block_2.ko /home/spark/임소/blocking_io/exercise2/simple_block_2.o /home/spark/임소/blocking_io/exercise2/simple_block_2.mod.o ;  true
