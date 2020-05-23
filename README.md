@@ -41,7 +41,7 @@ remove compile created files <br>
 ``` $make clean ``` <br>
 
 transfer module files to raspberry pi <br>
-``` $scp <module_name>.ko pi@<raspberry IP address>:~/ ``` <br>
+``` $scp <module_name>.ko pi@<raspberry IP address>:~/ ``` <br> 
 
 access local to raspberry pi <br>
 ``` $ssh pi@<raspberry IP address> ``` <br>
