@@ -1,0 +1,1 @@
+cmd_/home/spark/임소/gpio/exercise1/simple_led.ko := /usr/bin/arm-linux-gnueabi-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/spark/임소/gpio/exercise1/simple_led.ko /home/spark/임소/gpio/exercise1/simple_led.o /home/spark/임소/gpio/exercise1/simple_led.mod.o ;  true

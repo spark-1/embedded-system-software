@@ -1,0 +1,1 @@
+cmd_/home/spark/임소/gpio/challenge7/ch7_mod.ko := /usr/bin/arm-linux-gnueabi-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/spark/임소/gpio/challenge7/ch7_mod.ko /home/spark/임소/gpio/challenge7/ch7_mod.o /home/spark/임소/gpio/challenge7/ch7_mod.mod.o ;  true
