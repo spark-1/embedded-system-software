@@ -1,0 +1,1 @@
+cmd_/home/spark/임소/hw_event_handling/challenge8/ch8_mod.ko := /usr/bin/arm-linux-gnueabi-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/spark/임소/hw_event_handling/challenge8/ch8_mod.ko /home/spark/임소/hw_event_handling/challenge8/ch8_mod.o /home/spark/임소/hw_event_handling/challenge8/ch8_mod.mod.o ;  true

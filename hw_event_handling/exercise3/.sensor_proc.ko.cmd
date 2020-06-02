@@ -1,0 +1,1 @@
+cmd_/home/spark/임소/hw_event_handling/exercise3/sensor_proc.ko := /usr/bin/arm-linux-gnueabi-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/spark/임소/hw_event_handling/exercise3/sensor_proc.ko /home/spark/임소/hw_event_handling/exercise3/sensor_proc.o /home/spark/임소/hw_event_handling/exercise3/sensor_proc.mod.o ;  true
