@@ -78,6 +78,9 @@ if ready to cross compile cause error <br>
 compile kernel and module <br>
 ``` $make j2 ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- modules_prepare ``` <br>
 
+compile application in local<br>
+``` $arm-linux-gnueabi-gcc <file_name>.c -o <file_name> ``` <br>
+
 ## Raspberry Pi Environment <br>
 *Raspberry Pi 3 B+* <br>
 *Raspbian 2020-02-13* <br>
